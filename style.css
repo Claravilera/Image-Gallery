@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b8f0cc;
+    margin: 0;
+    padding: 30x;
+}
+
+
+.gallery-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    gap: 1px; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    background-color: #16691f;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow-x: auto; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.gallery-item {
+    text-align: center;
+    flex: 0 0 auto;
+}
+.gallery-item img {
+    width: 300px;
+    height: auto;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+}
+.caption {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(3, 40, 18);
+} 
